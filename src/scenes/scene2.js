@@ -138,7 +138,6 @@ export default class Scene2 extends Phaser.Scene {
   }
 
   hitEnemy(bullet, enemy) {
-       console.log("hit");
        enemy.disableBody(true, true);
        bullet.disableBody(true, true);
   }
